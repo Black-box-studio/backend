@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activation Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        .header img {
+            width: 100px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .content {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .content img {
+            width: 150px;
+        }
+        .content h2,h3 {
+            color: #28a745;
+        }
+        .content p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://via.placeholder.com/100" alt="BlackBoys Logo">
+        </div>
+        <div class="content">
+            <img src="https://via.placeholder.com/150" alt="Activation Code Generated Successful">
+            <h2>Activation Code Generated Successful ✅</h2>
+            <p>Dear <%= user.name%>,</p>
+            <h3><%= activationCode%></h3>
+            <p>Your account has been successfully activated. You can now access all the features and services we offer.</p>
+            <p>If you did not register for a BlackBoys account, please ignore this email.</p>
+            <p style="font-weight: bold; color: red;">Pls enter this code on the BlackBoys page within next 5 minutes to activate your account</p>
+        </div>
+        <div class="footer">
+            <p>© 2024 BlackBoys Studio, Inc.</p>
+            <p>Chennai,TamilNadu, India</p>
+            <p>All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="https://via.placeholder.com/30/Facebook" alt="Facebook"></a>
+                <a href="#"><img src="https://via.placeholder.com/30/Instagram" alt="Instagram"></a>
+                <a href="#"><img src="https://via.placeholder.com/30/Twitter" alt="Twitter"></a>
+                <a href="#"><img src="https://via.placeholder.com/30/LinkedIn" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
